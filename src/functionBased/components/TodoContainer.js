@@ -1,4 +1,4 @@
-/* eslint-disable no-use-before-define, no-param-reassign */
+/* eslint-disable no-param-reassign */
 import { v4 as uuidv4 } from 'uuid';
 import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -8,6 +8,13 @@ import TodosList from './TodosList';
 import About from '../pages/About';
 import NotMatch from '../pages/NotMatch';
 import Navbar from './Navbar';
+
+function getInitialTodos() {
+  // getting stored items
+  const temp = localStorage.getItem('todos');
+  const savedTodos = JSON.parse(temp);
+  return savedTodos || [];
+}
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState(getInitialTodos());
@@ -56,12 +63,6 @@ const TodoContainer = () => {
     localStorage.setItem('todos', temp);
   }, [todos]);
 
-  function getInitialTodos() {
-    // getting stored items
-    const temp = localStorage.getItem('todos');
-    const savedTodos = JSON.parse(temp);
-    return savedTodos || [];
-  }
   return (
     <>
       <Navbar />

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types, no-console,
-react/destructuring-assignment, react/button-has-type */
+react/destructuring-assignment */
 import React, { useState, useEffect } from 'react';
 import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
@@ -48,7 +48,7 @@ const TodoItem = (props) => {
           checked={completed}
           onChange={() => props.handleChangeProps(id)}
         />
-        <button onClick={() => props.deleteTodoProps(id)}>
+        <button onClick={() => props.deleteTodoProps(id)} type="button">
           <FaTrash style={{ color: 'orangered', fontSize: '16px' }} />
         </button>
         <span style={completed ? completedStyle : null}>{title}</span>

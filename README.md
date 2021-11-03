@@ -4,7 +4,7 @@
 
 - This project was built for learning purposes.
 - This is a Todo List built using React, Javascript and JSX.
-- In this project you add a Todo Task, edit a Todo Task, delete a Todo Task, visit about page.
+- In this project you add a Todo Task, edit a Todo Task, delete a Todo Task, and visit about page.
 - Data is being stored in localStorage.
 
 ## Built With
@@ -13,11 +13,11 @@
 
 ## Getting Started
 
-1 - On Github, on the main page of this repository, click the Code button and copy "Clone with HTTPS" by clicking the copy icon.
+1 - On Github, visit the main page of this repository, click the Code button and copy "Clone with HTTPS" by clicking on the copy icon.
 In your terminal, enter a git clone and past the link that you copied from the repository, and press enter.
 (e.g. git clone https://github.com/jonathastavares/React-To-Do.git).
 
-* To get a local copy up and running follow these steps.
+* To get a local copy updated and running follow these steps.
 
 2 - open your terminal and clone the project running 
 
@@ -25,13 +25,13 @@ In your terminal, enter a git clone and past the link that you copied from the r
 
 3 - install or update your npm running
 
-`npm install` or if you have it installed already `npm update`
+`npm install` or if you already have it installed, run: `npm update`
 
 4 - start your local server and build project using
 
 `npm start`
 
-## Authors
+## Author
 
 👤 **Jonathas Tavares**
 

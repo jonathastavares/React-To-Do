@@ -1,4 +1,3 @@
-/* eslint-disable react/button-has-type */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
@@ -26,7 +25,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navBar">
-      <button onClick={handleToggle}>
+      <button onClick={handleToggle} type="button">
         {navbarOpen ? (
           <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
         ) : (
