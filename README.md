@@ -11,6 +11,10 @@
 
 - React
 
+## Live Demo
+
+- Check out a live demo version here: [Todo-List](https://raw.githack.com/jonathastavares/React-To-Do/app/build/index.html)
+
 ## Getting Started
 
 1 - On Github, visit the main page of this repository, click the Code button and copy "Clone with HTTPS" by clicking on the copy icon.
