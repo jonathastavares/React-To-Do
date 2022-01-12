@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types, no-alert, react/button-has-type */
+/* eslint-disable react/prop-types, no-alert, react/button-has-type,
+react/destructuring-assignment */
 import React, { useState } from 'react';
 import { FaPlusCircle } from 'react-icons/fa';
 
